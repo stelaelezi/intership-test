@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hab+Dash is the e-commerce wholesale division of Fil-Tec"
+    />
     <title>HabDash</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-   
   </head>
+
   <body>
     <header>
       <!-- header items would go here -->
@@ -20,24 +24,23 @@
         <img
           class="hero-image"
           src="photos/main.png"
-          alt="Background Image"
+          alt="Hero Image"
           style="width: 100%"
         />
         <div class="shop">
           <h1>Add color to your masterpiece</h1>
-          <button class="button">Shop Now</button>
+          <button class="button" aria-label="Shop supplies">Shop Now</button>
         </div>
       </section>
       <section class="articles-flex">
         <article class="article">
-            <img class src="photos/glibe.png" alt="Glide" />
-            <p>Glide</p>
-          </a>
+          <img class="article-img" src="photos/glibe.png" alt="Glide" />
+          <p>Glide</p>
         </article>
 
         <article class="article">
           <img
-            class
+            class="article-img"
             src="photos/magnetic-core-bobbin.png"
             alt="Magnetic Core Bobbin"
           />
@@ -45,7 +48,7 @@
         </article>
         <article class="article">
           <img
-            class
+            class="article-img"
             src="photos/premium-stabilizer.png"
             alt="Premium Stabilizer"
           />
@@ -54,14 +57,13 @@
       </section>
 
       <section class="featured-products">
-      <h2>Featured Products</h2>
+        <h2>Featured Products</h2>
+        <!-- Products here -->
 
         <div class="carousel">
-          
           <div class="product">
             <div class="carousel-image">
               <img
-                class
                 src="photos/embroidery-stabilizer.png"
                 alt="Embroidery Stabilizer"
                 width="300px"
@@ -72,9 +74,8 @@
           <div class="product">
             <div class="carousel-image">
               <img
-                class
                 src="photos/cubbie-grey-elephant.png"
-                alt="cubbie-grey-elephant"
+                alt="Cubbie Grey Elephant"
                 width="300px"
               />
             </div>
@@ -83,9 +84,8 @@
           <div class="product">
             <div class="carousel-image">
               <img
-                class
                 src="photos/kimberbell-cupof-cheer.png"
-                alt="kimberbell-cupof-cheer"
+                alt="Kimberbell Cupof Cheer"
                 width="300px"
               />
             </div>
@@ -94,30 +94,75 @@
           <div class="product">
             <div class="carousel-image">
               <img
-                class
                 src="photos/kimberbell-two-scoops.png"
-                alt="kimberbell-two-scoops"
+                alt="Kimberbell Two Scoops"
                 width="300px"
               />
             </div>
             <h4>kimberbell-two-scoops</h4>
           </div>
-         
-
+          <div class="product">
+            <div class="carousel-image">
+              <img
+                src="https://picsum.photos/350/400"
+                alt="Generate Image"
+                width="300px"
+              />
+            </div>
+            <h4>Generate Image</h4>
+          </div>
+          <div class="product">
+            <div class="carousel-image">
+              <img
+                src="https://picsum.photos/350/400?random=1"
+                alt="Generate Image"
+                width="300px"
+              />
+            </div>
+            <h4>Generate Image</h4>
+          </div>
+          <div class="product">
+            <div class="carousel-image">
+              <img
+                src="https://picsum.photos/350/400?random=2"
+                alt="Generate Image"
+                width="300px"
+              />
+            </div>
+            <h4>Generate Image</h4>
+          </div>
         </div>
-        
-        
-        <div class=" btn next-button">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-            </svg>
-            
+        <div class="btn next-button" aria-label="Next Slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
         </div>
-        <div class=" btn prev-button">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-            </svg>
-            
+        <div class="btn prev-button" aria-label="Previous Slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
         </div>
       </section>
     </main>
@@ -125,6 +170,6 @@
     <footer>
       <!-- footer items would go here -->
     </footer>
-    <script src="script.js" ></script>
+    <script src="script.js"></script>
   </body>
 </html>
