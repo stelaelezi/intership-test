@@ -171,9 +171,12 @@ h2 {
 /* Responsive design max-width: 500px */
 
 @media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+  }
   .hero .shop {
     right: 20px;
-    top: 20%;
+    top: 23%;
   }
   .hero-image {
     height: 100vh;
